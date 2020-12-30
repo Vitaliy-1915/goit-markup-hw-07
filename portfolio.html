@@ -15,7 +15,7 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
     <!--шапка сайта-->
@@ -33,9 +33,7 @@
               >
             </li>
             <li class="nav-list-item">
-              <a
-                class="nav-list-link current any-transition"
-                href="./portfolio.html"
+              <a class="nav-list-link current any-transition" href=""
                 >Портфолио</a
               >
             </li>
@@ -312,11 +310,11 @@
     </main>
     <!--подвал-->
     <footer class="footer">
-      <!--кондактная инфо-->
+      <!--контактная инфо-->
       <section class="footer-contact">
         <div class="conteiner">
           <address class="footer-address">
-            <h2 hidden>контакты</h2>
+            <h2 class="visually-hidden">контакты</h2>
             <div class="footer-address-list-wrapper">
               <a class="logo" href="./index.html"
                 >Web<span class="footer-hf-logo">Studio</span></a
@@ -345,8 +343,8 @@
               </ul>
             </div>
           </address>
-          <div class="footer-list-link-wrapper">
-            <h3 class="footer-subtitle">присоединяйтесь</h3>
+          <div class="footer-social-list-wrapper">
+            <h3 class="footer-social-list-subtitle">присоединяйтесь</h3>
             <ul class="footer-social-list">
               <li class="footer-social-list-item">
                 <div class="footer-list-content-wrapper">
@@ -388,8 +386,8 @@
           </div>
 
           <form class="footer-form" action="#">
-            <b class="footer-forn-appeal">Подпишитесь на рассылку</b>
-            <div class="footer-form-input-wrapper">
+            <b class="footer-form-appeal">Подпишитесь на рассылку</b>
+            <div class="footer-form-wrapper">
               <input
                 class="footer-form-email"
                 type="email"
@@ -398,6 +396,9 @@
               />
               <button class="footer-form-button" type="submit">
                 Подписаться
+                <svg class="footer-form-button-icon">
+                  <use href="./sprite.svg#icon-send"></use>
+                </svg>
               </button>
             </div>
           </form>

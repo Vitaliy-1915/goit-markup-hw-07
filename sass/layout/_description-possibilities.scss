@@ -1,29 +1,26 @@
 .description {
   padding-bottom: 94px;
-}
 
-.description .description-title {
-  min-width: 376px;
+  & .description-title {
+    min-width: 376px;
+  }
 }
 
 .description-list {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-}
 
-.description-list-item:nth-child(3n) {
-  margin-right: 0;
-}
+  &-item {
+    position: relative;
+    display: block;
+    margin-right: 30px;
+    flex-basis: calc(100% / 3 - 30px);
+  }
 
-.description-list-item {
-  margin-right: 30px;
-  flex-basis: calc(100% / 3 - 30px);
-}
-
-.description-list-item {
-  position: relative;
-  display: block;
+  &-item:nth-child(3n) {
+    margin-right: 0;
+  }
 }
 
 .description-title-image {
