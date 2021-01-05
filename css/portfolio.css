@@ -40,6 +40,10 @@
   --active-link-color: #2196f3;
 }
 
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 body {
   font-family: var(--main-font);
   font-style: normal;

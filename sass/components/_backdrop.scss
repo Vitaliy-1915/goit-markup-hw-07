@@ -157,11 +157,13 @@
     width: 16px;
     height: 15px;
     border: 1px solid #212121;
+    border-radius: 1px;
     margin-right: 7px;
   }
 
   &:checked + &-text::before {
     background-image: url(../images/icon-check.png);
+    border: transparent;
   }
 
   &-text {
